@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Used Cars Database</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -27,7 +28,7 @@
             if (mysqli_num_rows($result) > 0) {
 
                 // Create HTML table
-                echo "<table border='1'>";
+                echo "<table>";
                 echo "<tr>";
                 echo "<th>Car ID</th>";
                 echo "<th>Make</th>";
